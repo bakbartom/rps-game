@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taş Kağıt Makas Oyunu</title>
+</head>
+<body>
+    <h1>Taş Kağıt Makas Oyunu</h1>
+    <form action="/play" method="post">
+        <label for="name">Adınız:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="choice">Seçiminiz:</label><br>
+        <select id="choice" name="choice">
+            <option value="Taş">Taş</option>
+            <option value="Kağıt">Kağıt</option>
+            <option value="Makas">Makas</option>
+        </select><br><br>
+        <button type="submit">Oyna</button>
+    </form>
+    <p>Sonuçları Barto'dan öğrenebilirsiniz.</p>
+</body>
+</html>
